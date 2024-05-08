@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.oopsconsultancy</groupId>
   <artifactId>xmltask</artifactId>
-  <version>1.17-atlassian-1</version>
+  <version>1.17-atlassian-2-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>xmltask</name>
   <description>An Atlassian fork of a fork of the Ant XMLTask from OOPS Consultancy Ltd</description>
@@ -23,7 +23,7 @@
     <connection>scm:git:${project.scm.url}.git</connection>
     <developerConnection>scm:git:git@github.com:atlassian-forks/ant-xmltask.git</developerConnection>
     <url>${project.url}</url>
-    <tag>xmltask-1.17-atlassian-1</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub</system>
