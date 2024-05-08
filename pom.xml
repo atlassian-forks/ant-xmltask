@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.oopsconsultancy</groupId>
   <artifactId>ant-xmltask</artifactId>
-  <version>1.17-SNAPSHOT</version>
+  <version>1.17-atlassian-1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>ant-xmltask</name>
-  <description>A fork of the Ant XMLTask from OOPS Consultancy Ltd</description>
-  <url>https://github.com/antlibs/ant-xmltask</url>
+  <description>An Atlassian fork of a fork of the Ant XMLTask from OOPS Consultancy Ltd</description>
+  <url>https://github.com/atlassian-forks/ant-xmltask</url>
   <inceptionYear>2003</inceptionYear>
   <licenses>
     <license>
@@ -18,7 +18,7 @@
   </licenses>
   <organization>
     <name>antlibs</name>
-    <url>https://github.com/antlibs</url>
+    <url>https://github.com/atlassian-forks/ant-xmltask</url>
   </organization>
   <scm>
     <connection>scm:git:${project.scm.url}.git</connection>
@@ -30,7 +30,12 @@
     <system>GitHub</system>
     <url>${project.scm.url}/issues/</url>
   </issueManagement>
+
   <distributionManagement>
+    <repository>
+      <id>atlassian-3rdparty</id>
+      <url>https://packages.atlassian.com/3rdparty</url>
+    </repository>
     <site>
       <id>${project.artifactId}</id>
       <url>${project.scm.connection}</url>
