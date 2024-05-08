@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.oopsconsultancy</groupId>
-  <artifactId>ant-xmltask</artifactId>
+  <artifactId>xmltask</artifactId>
   <version>1.17-atlassian-1-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>ant-xmltask</name>
+  <name>xmltask</name>
   <description>An Atlassian fork of a fork of the Ant XMLTask from OOPS Consultancy Ltd</description>
   <url>https://github.com/atlassian-forks/ant-xmltask</url>
   <inceptionYear>2003</inceptionYear>
@@ -22,7 +22,7 @@
   </organization>
   <scm>
     <connection>scm:git:${project.scm.url}.git</connection>
-    <developerConnection>scm:git:${project.scm.url}.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:atlassian-forks/ant-xmltask.git</developerConnection>
     <url>${project.url}</url>
     <tag>HEAD</tag>
   </scm>
